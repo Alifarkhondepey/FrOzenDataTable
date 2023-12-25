@@ -17,7 +17,8 @@ Make sure you have [Node.js](https://nodejs.org/) and [Angular CLI](https://angu
 2. Install dependencies:
 
     ```bash
-    npm install
+    npm install jquery datatables.net datatables.net-dt angular-datatables --save
+    npm install @types/jquery @types/datatables.net --save-dev
     ```
 for more information about how to install dataTable, you look here https://github.com/l-lin/angular-datatables
 
