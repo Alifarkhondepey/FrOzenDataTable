@@ -46,6 +46,8 @@ Make sure you have [Node.js](https://nodejs.org/) and [Angular CLI](https://angu
 
     Customize `yourApiUrl` and `yourColumns` based on your data source and desired table columns.
 
+**Note:** The project is now connected to a sample API built with .NET 8.
+
 ## Features
 
 - Dynamic data loading from a specified API endpoint.
