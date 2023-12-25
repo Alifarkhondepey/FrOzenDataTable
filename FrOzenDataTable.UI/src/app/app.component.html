@@ -1,0 +1,46 @@
+<h1 id="tableLabel">Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!forecasts"><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationangular">https://aka.ms/jspsintegrationangular</a> for more details.</em></p>
+
+<!-- <table *ngIf="forecasts">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Temp. (C)</th>
+            <th>Temp. (F)</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let forecast of forecasts">
+            <td>{{ forecast.date }}</td>
+            <td>{{ forecast.temperatureC }}</td>
+            <td>{{ forecast.temperatureF }}</td>
+            <td>{{ forecast.summary }}</td>
+        </tr>
+    </tbody>
+</table> -->
+<!-- /.card -->
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">
+            <a routerLink="#" class="btn btn-info btn-sm btn-social">New<i class="fa fa-plus"></i></a>
+        </h3>
+    </div>
+
+    <!-- /.card-header -->
+    <div class="card-body">
+
+        <!-- facial-group.component.html -->
+        <app-data-table [apiUrl]="apiUrl"
+                        [columns]="yourfacialColumns"
+                        (onEditClicked)="handleEditClick($event)"
+                        (onRemoveClicked)="handleRemoveClick($event)"
+                        (onOpenClicked)="handleOpenClick($event)"></app-data-table>
+    </div>
+    <!-- /.card-body -->
+</div>
+<!-- /.card -->

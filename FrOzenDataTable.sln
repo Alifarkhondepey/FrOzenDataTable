@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34407.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrOzenDataTable", "FrOzenDataTable\FrOzenDataTable.csproj", "{9B455419-AAB6-408B-BF1D-FA9F7584107F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FrOzenDataTable.UI", "FrOzenDataTable.UI\FrOzenDataTable.UI.esproj", "{7CE9310C-3CF1-4287-A514-F704BB3BC4C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B455419-AAB6-408B-BF1D-FA9F7584107F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B455419-AAB6-408B-BF1D-FA9F7584107F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B455419-AAB6-408B-BF1D-FA9F7584107F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B455419-AAB6-408B-BF1D-FA9F7584107F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE9310C-3CF1-4287-A514-F704BB3BC4C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE9310C-3CF1-4287-A514-F704BB3BC4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE9310C-3CF1-4287-A514-F704BB3BC4C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7CE9310C-3CF1-4287-A514-F704BB3BC4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE9310C-3CF1-4287-A514-F704BB3BC4C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE9310C-3CF1-4287-A514-F704BB3BC4C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E97335D-0469-46AD-A79F-3E01748311ED}
+	EndGlobalSection
+EndGlobal

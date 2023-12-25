@@ -1,0 +1,19 @@
+// Define styles for mr-1 class
+.mr-1 {
+  margin-right: 0.25rem; // Adjust the margin as needed
+}
+
+// Define styles for ml-1 class
+.ml-1 {
+  margin-left: 0.25rem; // Adjust the margin as needed
+}
+div.dataTables_wrapper {
+  & > div.dataTables_length {
+    & > select {
+      width: 62px !important;
+      display: inline-block !important;
+    }
+  }
+}
+
+

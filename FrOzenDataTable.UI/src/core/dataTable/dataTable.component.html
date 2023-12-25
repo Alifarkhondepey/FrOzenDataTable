@@ -1,0 +1,30 @@
+<!-- data-table.component.html -->
+<div>
+    <button mat-raised-button class="btn btn-primary btn-sm btn-social pull-right mb-3 btn-sm" (click)="exportAsExcel()">Export
+        <i class="fa fa-file-excel-o fa-lg"></i></button>
+</div>
+<table *ngIf="isDataLoaded && columns!=null" #table datatable [dtOptions]="dtOptions" class="table table-bordered table-striped">
+    <thead>
+        <!-- Define your table headers here -->
+        <tr>
+            <th *ngFor="let column of columns">{{ column.title }}</th>
+            <th>Actions</th> <!-- Add an Actions column header -->
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Iterate over the dynamic data to create rows -->
+        <tr *ngFor="let item of data">
+            <!-- Iterate over the columns dynamically -->
+            <td *ngFor="let column of columns">
+                {{ item[column.data] }}
+            </td>
+
+            <!-- Add action buttons in the last column -->
+            <td>
+                <a (click)="handleOpenClick(item)" class="btn btn-air-info btn-info btn-pill">View</a>
+                <a (click)="handleEditClick(item)" type="button" class="btn btn-air-primary btn-primary btn-pill mr-1 ml-1">Edit</a>
+                <a (click)="handleRemoveClick(item)" class="btn btn-air-danger btn-danger btn-pill">Remove</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

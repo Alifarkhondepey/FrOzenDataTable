@@ -1,0 +1,6 @@
+@FrOzenDataTable_HostAddress = http://localhost:5128
+
+GET {{FrOzenDataTable_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
