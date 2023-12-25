@@ -41,7 +41,9 @@ Make sure you have [Node.js](https://nodejs.org/) and [Angular CLI](https://angu
 2. Use the component in your Angular templates:
 
     ```html
-    <app-data-table [apiUrl]="yourApiUrl" [columns]="yourColumns"></app-data-table>
+    <app-data-table [apiUrl]="yourApiUrl" [columns]="yourColumns"  (onEditClicked)="handleEditClick($event)"
+ (onRemoveClicked)="handleRemoveClick($event)"
+ (onOpenClicked)="handleOpenClick($event)"></app-data-table>
     ```
 
     Customize `yourApiUrl` and `yourColumns` based on your data source and desired table columns.
