@@ -19,6 +19,8 @@ Make sure you have [Node.js](https://nodejs.org/) and [Angular CLI](https://angu
     ```bash
     npm install
     ```
+for more information about how to install dataTable, you look here https://github.com/l-lin/angular-datatables
+
 
 3. Integrate FrOzenDataTable into your Angular project by following the usage instructions in the provided guide.
 
