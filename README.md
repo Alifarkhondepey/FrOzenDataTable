@@ -1,6 +1,7 @@
 # FrOzenDataTable
 
 FrOzenDataTable is a powerful and customizable Angular component for creating dynamic data tables with ease. It comes packed with features like sorting, searching, and customizable actions for each row.
+![image](https://github.com/Alifarkhondepey/FrOzenDataTable/assets/78637186/50a85c5b-9f30-4b72-a598-921a7a24592c)
 
 ## Installation
 
